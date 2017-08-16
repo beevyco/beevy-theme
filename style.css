@@ -1,0 +1,141 @@
+/*
+Theme Name: Beevy.co Theme
+Version: 1.0
+Description: A child theme of Atomic
+Template: atomic
+*/
+
+@import url("../atomic/style.css");
+
+body, h1, h2, h3, h4, h5, span, div {
+	color: #242424;
+}
+
+.site-header, .site-footer {
+	background: #242424 !important;
+}
+
+/** General Page Styles */
+.entry-header .entry-title, .content-left .page-title {
+	text-align: center;
+}
+
+.entry-content p a.button {
+	color: #FFC000;
+	background: #242424;
+}
+
+.entry-content p a.button:hover {
+	color: #A3BBAD;
+	background: #357266;
+}
+
+
+/** Registration Page Styles */
+#rcp_registration_form {
+	text-align: center;
+}
+
+.rcp_user_fieldset {
+	width: 50%;
+	margin: 0 auto !important;
+}
+
+.rcp_user_fieldset p > input,
+#rcp_site_creation_fields_wrap p > input {
+	height: 35px;
+	font-size: 16px;
+	padding: 15px;
+	width: 65%;
+	min-width: 300px;
+}
+
+#rcp_user_name_wrap > input {
+	display: inline-table;
+	width: 45%;
+	min-width: 100px;
+}
+
+.rcp_card_fieldset {
+	width: 50%;
+	margin: 0 auto !important;
+	text-align: left;
+}
+
+.rcp_card_fieldset input {
+	height: 35px;
+	font-size: 16px;
+	padding: 15px;
+	width: 65%;
+	min-width: 300px;
+}
+
+.rcp_card_exp_month,
+.rcp_card_exp_year {
+	width: 40%;
+}
+
+.rcp_card_cvc {
+	width: 12.5% !important;
+	min-width: 50px !important;
+}
+
+.rcp_card_zip {
+	width: 20% !important;
+	min-width: 100px !important;
+}
+
+
+#rcp_subscription_levels {
+	text-align: center;
+}
+
+li.rcp_subscription_level {
+	width: 200px;
+	display: inline-block;
+	border: 1px solid #357266;
+	padding: 15px 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align: center;
+}
+
+li.rcp_subscription_level.selected {
+	background: #a3bbad;
+}
+
+li.rcp_subscription_level input {
+	margin: 0 45% !important;
+}
+
+li.rcp_subscription_level .rcp_price {
+	font-size: 1.5em;
+}
+
+li.rcp_subscription_level .rcp_level_duration_unit {
+	text-transform: uppercase;
+	font-size: .75em;
+}
+
+li.rcp_subscription_level .rcp_level_description {
+	border-left: 1px solid #FFC000;
+}
+
+.rcp_registration_total {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.rcp_registration_total table tr:nth-child(even) {
+	background: #a3bbad;
+}
+
+/** Welcome Page Styles */
+.page-template-template-welcome  #primary {
+	width: 100%;
+}
+
+.page-template-template-welcome .content-left {
+	width: 100%;
+}
