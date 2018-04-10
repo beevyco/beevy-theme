@@ -11,6 +11,11 @@ body, h1, h2, h3, h4, h5, span, div {
 	color: #242424;
 }
 
+.footer-widgets div,
+.footer-bottom  div{
+	color: rgba(255, 255, 255, 0.7);
+}
+
 .site-header, .site-footer {
 	background: #242424 !important;
 }
@@ -138,4 +143,20 @@ li.rcp_subscription_level .rcp_level_description {
 
 .page-template-template-welcome .content-left {
 	width: 100%;
+}
+
+/** Group Management Styles */
+.rcpga-group-dashboard input[type="text"],
+.rcpga-group-dashboard input[type="email"],
+.rcpga-group-dashboard input[type="password"] {
+	width: 50%;
+	min-width: 325px;
+	height: 32px;
+	font-size: 18px;
+}
+
+.rcpga-group-dashboard input[type="text"] + span,
+.rcpga-group-dashboard input[type="email"] + span,
+.rcpga-group-dashboard input[type="password"] + span {
+	display: block;
 }
